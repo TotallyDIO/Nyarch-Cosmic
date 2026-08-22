@@ -1,0 +1,14 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = calamares
+
+[Action]
+Description = Editing calamares.desktop for Cosmic
+When = PostTransaction
+Depends = calamares
+Depends = sed
+Exec = /usr/bin/sed -E -i '11s/false/true/' /usr/share/applications/calamares.desktop
+
