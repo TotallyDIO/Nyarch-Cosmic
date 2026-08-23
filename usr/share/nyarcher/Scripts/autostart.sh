@@ -2,7 +2,8 @@
 
 LIVEUSER="live"
 chmod -R 777 ~/.config/nyarch
-chmod -x /usr/share/nyarcher/Scripts/autostart.sh
+chmod +x /usr/share/nyarcher/Scripts/autostart.sh
+chmod +x /home/live/.config/autostart/*.desktop
 if [ "$USER" = "$LIVEUSER" ]; then
    sleep 2
    sh -c "pkexec calamares"
