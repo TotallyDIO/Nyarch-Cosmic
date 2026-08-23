@@ -4,7 +4,6 @@
 #
 
 # Nyarch Apps
-catgirldownloaderqt
 catgirldownloader
 nekoplay
 
@@ -385,8 +384,8 @@ xdg-desktop-portal-cosmic
 xpdf
 
 # Display Manager
-cosmic-greeter
-greetd
+#cosmic-greeter
+#greetd
 
 # Calamares make dependencies
 dmidecode
