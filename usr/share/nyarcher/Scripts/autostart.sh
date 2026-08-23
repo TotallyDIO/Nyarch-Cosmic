@@ -2,9 +2,9 @@
 
 LIVEUSER="live"
 if [ "$USER" = "$LIVEUSER" ]; then
-  echo idk
+  sudo -E calamares
 else
-    nyarchtourqt
+    nyarchtour
     rm -rf ~/.config/autostart/start.desktop
 fi
 
