@@ -422,7 +422,3 @@ yaml-cpp
 calamares
 ckbcomp
 mkinitcpio-openswap
-
-# AUR
-downgrade
-trizen
