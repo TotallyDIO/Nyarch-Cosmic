@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=first_start
-Exec=sudo -E /bin/calamares
+Exec=sudo -E /usr/bin/calamares
 StartupNotify=false
 Terminal=false
